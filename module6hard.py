@@ -24,8 +24,6 @@ class Figure:
 
     def set_sides(self, *sides):
         if self._is_valid_sides(sides):
-            self._sides = sides
-        else:
             self._sides = [sides[0]] * self.sides_count
 
     def get_sides(self):
